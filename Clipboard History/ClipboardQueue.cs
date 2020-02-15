@@ -31,19 +31,21 @@ namespace Clipboard_History {
         }
 
         public void Add(string text) {
+            if (text == string.Empty) {
+                return;
+            }
+
             if (History.Contains(text)) {
                 // We remove the text if it's already in the history, to move it to the bottom of 
                 // the list (last recently used)
                 History.Remove(text);
             }
 
+            History.Add(text);
 
             // This keeps the history count at 15 entries.
             if (History.Count > 15) {
-                History.Insert(History.Count - 1, text);
                 History.RemoveAt(0);
-            } else {
-                History.Add(text);
             }
         }
     }
