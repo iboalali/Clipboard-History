@@ -1,4 +1,4 @@
-﻿namespace Clibboard_History {
+﻿namespace Clipboard_History {
     partial class Form1 {
         /// <summary>
         /// Required designer variable.

@@ -5,7 +5,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace Clibboard_History {
+namespace Clipboard_History {
     /// <summary>
     /// Provides notifications when the contents of the clipboard is updated.
     /// </summary>

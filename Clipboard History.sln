@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clibboard History", "Clibboard History\Clibboard History.csproj", "{8B0B8198-890F-412C-A3C7-BAEEDD7E2ADD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clipboard History", "Clipboard History\Clipboard History.csproj", "{8B0B8198-890F-412C-A3C7-BAEEDD7E2ADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-﻿using Clibboard_History.Properties;
+﻿using Clipboard_History.Properties;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Clibboard_History {
+namespace Clipboard_History {
     class TrayAppContext : ApplicationContext {
 
         private System.ComponentModel.Container components;

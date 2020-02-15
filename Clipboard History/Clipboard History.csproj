@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8B0B8198-890F-412C-A3C7-BAEEDD7E2ADD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Clibboard_History</RootNamespace>
+    <RootNamespace>Clipboard_History</RootNamespace>
     <AssemblyName>Clipboard History</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -36,7 +36,7 @@
     <ApplicationIcon>Resources\AppIconBlack.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Clibboard_History.Program</StartupObject>
+    <StartupObject>Clipboard_History.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

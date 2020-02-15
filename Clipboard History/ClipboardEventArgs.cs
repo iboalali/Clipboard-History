@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clibboard_History {
+namespace Clipboard_History {
     public class ClipboardEventArgs : EventArgs{
         public string Text { get; private set; }
 

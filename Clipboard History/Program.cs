@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Clibboard_History {
+namespace Clipboard_History {
     static class Program {
         /// <summary>
         /// The main entry point for the application.
