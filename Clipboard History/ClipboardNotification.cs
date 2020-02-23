@@ -40,9 +40,13 @@ namespace Clipboard_History {
             protected override void WndProc(ref Message m) {
                 // Listen for operating system message
                 if (m.Msg == NativeMethods.WM_CLIPBOARDUPDATE) {
-                    if (Clipboard.ContainsText()) {
-                        var args = new ClipboardEventArgs(Clipboard.GetText());
-                        OnClipboardUpdate(args);
+                    try {
+                        if (Clipboard.ContainsText()) {
+                            var args = new ClipboardEventArgs(Clipboard.GetText());
+                            OnClipboardUpdate(args);
+                        }
+                    } catch (ExternalException) {
+                        // ignored
                     }
                 }
 
